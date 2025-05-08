@@ -13,7 +13,7 @@ class ProductProvider with ChangeNotifier {
   bool get isLoading => _isLoading;
   String? get error => _error;
 
-  final String _baseUrl = 'http://192.168.0.107:3000/products';
+  final String _baseUrl = 'http://192.168.117.212:3000/products';
 
   Future<void> fetchProducts() async {
     _isLoading = true;
